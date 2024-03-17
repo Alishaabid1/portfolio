@@ -1,0 +1,47 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* To push the elements to the opposite ends */
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100px;
+   
+   
+}
+.logo {
+    margin-top : 30px;
+    color: white;
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 40px;
+   
+}
+#name {
+    color:aqua;
+    padding-left: 10px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Vertically center items */
+    padding-right: 50px; /* Adjust as needed */
+    
+   
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; /* Adjust as needed */
+    margin-right: 20px; /* Add space between items */
+    font-size: 20px;
+    margin-top: 20px;
+}
+nav a:hover{
+    color:aqua;
+}
+body{
+    background: linear-gradient(120deg, rgb(0, 0, 14) 0%, rgb(2, 2, 97) 100%);
+
+}
+
